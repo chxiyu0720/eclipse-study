@@ -3,8 +3,9 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 	
-	<!-- bean id="userinfo" class="">
-		
-	</bean -->
+	<bean id="userinfo" class="com.chen.learn.bean.UserInfo">
+		<property name="username" value="zhangsan"></property>
+		<property name="password" value="123456"></property>
+	</bean>
 
 </beans>
