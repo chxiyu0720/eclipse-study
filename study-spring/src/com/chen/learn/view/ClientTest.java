@@ -9,7 +9,9 @@ import org.junit.Test;
 
 import com.chen.learn.bean.UserInfo;
 import com.chen.learn.utils.JdbcUtils;
-
+/*
+	这是测试文件
+*/
 public class ClientTest {
 	
 	@Test
