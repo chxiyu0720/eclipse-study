@@ -4,8 +4,12 @@
 	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 	
 	<bean id="userinfo" class="com.chen.learn.bean.UserInfo">
-		<property name="username" value="zhangsan"></property>
+	    <property name="id" value="20"></property>
+		<property name="username" value="小黑"></property>
 		<property name="password" value="123456"></property>
+		<property name="sex" value="男"></property>
+		<property name="age" value="21"></property>
+		<property name="deleted" value="false"></property>
+		<!-- property name="create_time" value=NOW()></property-->
 	</bean>
-
 </beans>
